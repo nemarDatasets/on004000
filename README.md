@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004000-blue)](https://doi.org/10.82901/nemar.on004000)
+
 This is a schizophrenia in ultimatum game task study for Fribourg University. Participants were asked to play the UG in both roles, both as responder and proposer. 128 electrode EEG was recorded during the task. 19 patients with psychosis epoisodes and 24 healths controls were recorded during the task.
 
 This dataset was recorded at the Fribourg University in Switzerland. The project was approved by the Ethics Committee of the University of Fribourg (reference number: 054/13-CER-FR).
