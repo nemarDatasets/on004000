@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Fribourg Ultimatum Game in Schizophrenia Study",
+  "description": "This dataset comprises 128-channel EEG recordings from 19 patients with psychosis and 24 healthy controls performing the Ultimatum Game at Fribourg University. Participants engaged in both proposer and responder roles across three blocks of 30 trials each, providing neurophysiological insights into decision-making and social cognition in schizophrenia spectrum disorders.",
+  "methods_description": "EEG was recorded using 128 electrodes while participants performed the Ultimatum Game in a shielded room. Participants completed three blocks per role (proposer and responder), each consisting of 30 repetitions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,40 +15,6 @@
     "Marco Merlo": {},
     "Jonas Richiardi": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004000.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004000",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004000",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset comprises 128-channel EEG recordings from 19 patients with psychotic episodes and 24 healthy controls performing the Ultimatum Game task at Fribourg University. Participants engaged in both proposer and responder roles across three blocks of 30 repetitions each, enabling investigation of neural correlates of social decision-making and fairness processing in schizophrenia.",
-  "methods_description": "EEG was recorded from 128 electrodes while participants performed the Ultimatum Game in a shielded room. Participants completed the task in both proposer and responder roles, with three blocks of 30 repetitions per role. The study was approved by the Ethics Committee of the University of Fribourg (reference number: 054/13-CER-FR).",
   "keywords": [
     {
       "term": "EEG"
@@ -60,14 +28,47 @@
       "term": "Ultimatum Game"
     },
     {
-      "term": "Social Decision-Making"
+      "term": "decision-making"
     },
     {
-      "term": "Psychosis"
+      "term": "social cognition"
     },
     {
-      "term": "Fairness"
+      "term": "psychosis"
     }
   ],
-  "source_hash": "6467cb9ad237220f42fa99edf4f93810ebe6e0bad6bc7361ff715b40f0894b33"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004000",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004000",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004000.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "24.2 GB (259 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "888159ea9f01588ab9a37d4cbfa90c112ac6676b31f430e2988ad2d5430e0fbb"
 }
