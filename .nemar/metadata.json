@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004000",
-  "source": "openneuro",
-  "source_id": "ds004000",
+  "pipeline_stage": "enriched",
   "title": "Fribourg Ultimatum Game in Schizophrenia Study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Anna Padée": {},
     "Pascal Missonnier": {},
@@ -13,21 +13,61 @@
     "Marco Merlo": {},
     "Jonas Richiardi": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004000.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004000",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004000",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.6.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises 128-channel EEG recordings from 19 patients with psychotic episodes and 24 healthy controls performing the Ultimatum Game task at Fribourg University. Participants engaged in both proposer and responder roles across three blocks of 30 repetitions each, enabling investigation of neural correlates of social decision-making and fairness processing in schizophrenia.",
+  "methods_description": "EEG was recorded from 128 electrodes while participants performed the Ultimatum Game in a shielded room. Participants completed the task in both proposer and responder roles, with three blocks of 30 repetitions per role. The study was approved by the Ethics Committee of the University of Fribourg (reference number: 054/13-CER-FR).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Schizophrenia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
+    },
+    {
+      "term": "Ultimatum Game"
+    },
+    {
+      "term": "Social Decision-Making"
+    },
+    {
+      "term": "Psychosis"
+    },
+    {
+      "term": "Fairness"
+    }
+  ],
+  "source_hash": "6467cb9ad237220f42fa99edf4f93810ebe6e0bad6bc7361ff715b40f0894b33"
 }
