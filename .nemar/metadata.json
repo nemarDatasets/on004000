@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Fribourg Ultimatum Game in Schizophrenia Study",
-  "description": "This dataset comprises 128-channel EEG recordings from 19 patients with psychosis and 24 healthy controls performing the Ultimatum Game at Fribourg University. Participants engaged in both proposer and responder roles across three blocks of 30 trials each, providing neurophysiological insights into decision-making and social cognition in schizophrenia spectrum disorders.",
-  "methods_description": "EEG was recorded using 128 electrodes while participants performed the Ultimatum Game in a shielded room. Participants completed three blocks per role (proposer and responder), each consisting of 30 repetitions.",
+  "description": "This dataset contains 128-channel EEG recorded during an Ultimatum Game (UG) task in patients with psychosis episodes (n=19) and healthy controls (n=24). Participants played the game in both the responder and proposer roles. Data were collected at the University of Fribourg, Switzerland, to study social decision-making in schizophrenia.",
+  "methods_description": "Participants sat in a comfortable chair in a shielded room while 128-electrode EEG was recorded during the Ultimatum Game. For each role (responder and proposer), participants performed three blocks of 30 repetitions each. The study was approved by the Ethics Committee of the University of Fribourg (reference 054/13-CER-FR).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,21 +20,20 @@
       "term": "EEG"
     },
     {
+      "term": "Ultimatum Game"
+    },
+    {
       "term": "Schizophrenia",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
     },
     {
-      "term": "Ultimatum Game"
+      "term": "Psychotic Disorders",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011618"
     },
     {
-      "term": "decision-making"
-    },
-    {
-      "term": "social cognition"
-    },
-    {
-      "term": "psychosis"
+      "term": "social decision-making"
     }
   ],
   "related_identifiers": [
@@ -44,14 +43,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004000",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004000.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004000",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -59,7 +58,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.2 GB (259 files)"
+    "22.50 GB (259 files)"
   ],
   "formats": [
     ".eeg",
